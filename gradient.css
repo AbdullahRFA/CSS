@@ -1,0 +1,16 @@
+.style_gradient{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: justify;
+    height: 410px;
+    width: 100%;
+    background-image: linear-gradient(to right,red,yellow,pink,green);
+}
+.radial_style{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: justify;
+    height: 800px;
+    width: 100%;
+    background-image: radial-gradient(circle,green,yellow,red,gray,aqua,orange,antiquewhite);
+}

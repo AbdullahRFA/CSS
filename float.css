@@ -1,0 +1,30 @@
+body{
+    background-color: gray;
+
+}
+.section1{
+    background-color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 100;
+    float: left;
+    margin: 10px;
+}
+.section2{
+    background-color: green;
+    float: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 100;
+    margin: 10px;
+}
+.clear{
+    clear: both;
+}
+.section3{
+    background-color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 100;
+    text-align: justify;
+}

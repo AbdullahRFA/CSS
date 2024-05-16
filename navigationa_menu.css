@@ -1,0 +1,37 @@
+body {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensures the content is centered vertically on the page */
+    margin: 0;
+}
+
+.nav_manu {
+    width: 100%;
+    height: 200px;
+    background-color: green;
+}
+
+.nav_manu ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    
+    padding: 0;
+}
+
+.nav_manu ul li {
+    margin: 0 10px; /* Adjust the spacing between menu items */
+}
+
+.nav_manu ul li a {
+    color: rgb(227, 162, 12);
+    text-decoration: none;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 30px;
+}
+
+.nav_manu ul li a:hover {
+    text-decoration: underline;
+}

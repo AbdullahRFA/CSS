@@ -1,0 +1,34 @@
+.div1{
+    height: 200px;
+    width: 50%;
+    background-color: rgb(218, 29, 29);
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 5px solid rgb(29, 229, 82);
+    float: left;
+    text-align: justify;
+    
+}
+.div2{
+    height: 200px;
+    width: 50%;
+    background-color: rgb(23, 17, 219);
+    color: white;
+    box-sizing: border-box;
+    border: 5px solid rgb(255, 0, 17);
+    float: left;
+    text-align: justify;
+}
+.txt{
+    float: none;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    color: white;
+    opacity: 0.2;
+    text-align: justify;
+}
+.txt:hover{
+    opacity: 1;
+}

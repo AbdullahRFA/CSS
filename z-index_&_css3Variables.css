@@ -1,0 +1,32 @@
+:root{
+    --primary-color: brown;
+    --secondary-color: rgb(64, 0, 255);
+    --color: red;
+}
+
+.div1{
+    width: 300px;
+    height: 300px;
+    background-color: var(--primary-color);
+    margin: 50px;
+    position: absolute;
+    z-index: 1;
+    
+}
+.div2{
+    width: 300px;
+    height: 300px;
+    background-color: var(--secondary-color);
+    margin: 50px;
+    position: absolute;
+    z-index: 2;
+    left: 200px;
+    top: 180px;
+}
+@media screen and (max-width: 600px) {
+   :root{
+    --primary-color: black;
+    --color: aqua;
+    --secondary-color: orange;
+   }
+}
