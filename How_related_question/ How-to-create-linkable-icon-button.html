@@ -1,11 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Icon button</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      .media {
+        background-color: gray;
+        padding: 50px 20px;
+        text-align: center;
+      }
+      .btn {
+        border: none;
+        padding: 10px 20px;
+        font-size: 2rem;
+        border-radius: 10px;
+      }
+      .btn:hover{
+        background-color: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="media">
+      <button class="btn" onclick="window.open('https://www.facebook.com/')" class="btn request-callback">
+        <i class="fa fa-facebook" style="color: #3b5998" aria-hidden="true"></i>
+      </button>
+
+      <button class="btn request-callback" onclick="window.open('https://www.youtube.com/watch?v=ChX_Z9nxayY&list=RDUn2xfFZPsio&index=1')">
+        <i class="fa fa-youtube" style="color: red;"  aria-hidden="true"></i>
+      </button>
+
+      <button class="btn request-callback" onclick="window.open('https://www.google.com/')">
+        <i class="fa fa-google" aria-hidden="true"></i>
+      </button>
+
+      <button class="btn request-callback" onclick="window.open('https://www.skype.com/en/')">
+        <i class="fa fa-skype" style="color: #009EDC;"
+        aria-hidden="true"></i>
+      </button>
+      
+      <button class="btn request-callback" onclick="window.open('https://mail.google.com/mail/u/0/#inbox')">  
+        <i class="fa fa-envelope" style="color: #ff5d5d	;"  aria-hidden="true"></i>
+      </button>
+
+      <button class="btn request-callback" onclick="window.open('https://www.linkedin.com/feed/')">
+        <i class="fa fa-linkedin" style="color: #0077B5;"  aria-hidden="true"></i>
+      </button>
+      <button class="btn request-callback" onclick="window.open('https://github.com/')">
+        <i class="fa fa-github" style="color: #2b3137;"  aria-hidden="true"></i>
+      </button>
+
+    </div>
+  </body>
 </html>
