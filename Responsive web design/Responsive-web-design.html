@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive-web-design</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        /* background-color: gray; */
+      }
+      body{
+        background-color: white;
+      }
+      .header {
+        background-color: coral;
+        padding: 1% 7%;
+        text-align: center;
+        color: white;
+        /* height: 100px; */
+        margin: 0 auto;
+      }
+      .header:hover {
+        box-shadow: 16px 10px 5px pink;
+        background-color: gray;
+        color: aqua;
+      }
+      .navbar p {
+        /* margin: 10px; */
+        padding: 5px;
+        border: 2px solid black;
+        background-color: blueviolet;
+        color: white;
+        cursor: pointer;
+        font-size: 25px;
+        text-align: center;
+        border-radius: 10px;
+      }
+      .navbar p:hover {
+        box-shadow: 10px 10px 5px #aaaaaa;
+        background-color: magenta;
+      }
+      h1 {
+        text-align: center;
+      }
+      .navbar {
+        padding: 1% 5%;
+        color: magenta;
+        background-color: aqua;
+      }
+      .navbar:hover{
+        background-color: bisque;
+      }
+      .main {
+        padding: 1% 5%;
+        background-color: aquamarine;
+      }
+      .main:hover {
+        background-color: cadetblue;
+        color: white;
+        box-shadow: 10px 10px blue, 15px 15px red,20px 20px green;
+      }
+      .footer {
+        background-color: gray;
+        padding: 1%;
+        text-align: center;
+        color: white;
+      }
+      .aside {
+        background-color: blue;
+        color: white;
+      }
+      .aside:hover {
+        background-color: magenta;
+        box-shadow: 19px 19px 8px 10px yellow;
+      }
+      [class*="col-"] {
+        width: 100%;
+        text-align: center;
+      }
+
+      [class*="col-"] {
+        float: left;
+        padding: 10px;
+      }
+     
+      /* for tab */
+      @media screen and (min-width: 600px) {
+        .col-s-1 {
+          width: 8.33%;
+        }
+        .col-s-2 {
+          width: 16.66%;
+        }
+        .col-s-3 {
+          width: 25%;
+        }
+        .col-s-4 {
+          width: 33.33%;
+        }
+        .col-s-5 {
+          width: 41.66%;
+        }
+        .col-s-6 {
+          width: 50%;
+        }
+        .col-s-7 {
+          width: 58.33%;
+        }
+        .col-s-8 {
+          width: 66.66%;
+        }
+        .col-s-9 {
+          width: 75%;
+        }
+        .col-s-10 {
+          width: 83.33%;
+        }
+        .col-s-11 {
+          width: 91.66%;
+        }
+        .col-s-12 {
+          width: 100%;
+        }
+      }
+       /* For labtop */
+       @media screen and (min-width: 768px) {
+        .col-1 {
+          width: 8.33%;
+        }
+        .col-2 {
+          width: 16.66%;
+        }
+        .col-3 {
+          width: 25%;
+        }
+        .col-4 {
+          width: 33.33%;
+        }
+        .col-5 {
+          width: 41.66%;
+        }
+        .col-6 {
+          width: 50%;
+        }
+        .col-7 {
+          width: 58.33%;
+        }
+        .col-8 {
+          width: 66.66%;
+        }
+        .col-9 {
+          width: 75%;
+        }
+        .col-10 {
+          width: 83.33%;
+        }
+        .col-11 {
+          width: 91.66%;
+        }
+        .col-12 {
+          width: 100%;
+        }
+      }
+      /* row clear */
+      .row::after{
+        content: '';
+        clear: both;
+        display: table;
+      }
+      .footer:hover{
+        background-color: black;
+        color: white;
+        box-shadow: 10px 10px red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Abdullah Nazmus-Sakib</h1>
+    </div>
+    <div class="row">
+      <div class="navbar col-s-3 col-2">
+        <p>Home</p>
+        <p>Tutorial</p>
+        <p>Contact</p>
+      </div>
+      <div class="main col-s-9 col-7">
+        <h1>I am a web designer</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum culpa
+          atque veritatis, amet enim dolorem, recusandae architecto molestias
+          quo suscipit eaque error odit nobis labore, quaerat itaque? A, minima
+          optio!
+        </p>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod eveniet
+          cumque iste iusto eligendi numquam, dignissimos cum inventore tempora
+          id labore soluta quia dolore. Vero at temporibus sequi quia. Ad
+          consequuntur laudantium, dicta, assumenda commodi eius, mollitia eum
+          accusamus repellendus quam maxime quod quisquam rem amet? Aperiam
+          tempora neque dignissimos deserunt error amet excepturi, officia esse
+          assumenda odio, nam maiores maxime cupiditate delectus omnis itaque
+          animi? Necessitatibus dolorum inventore rerum!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero veniam
+          facilis veritatis iure doloremque. Voluptatum optio aliquam doloremque
+          recusandae excepturi? Eligendi, magnam quisquam laboriosam voluptatum
+          perspiciatis sapiente et vero odit debitis similique consequatur nemo
+          in corporis dolorem commodi eius consequuntur placeat ea incidunt
+          voluptates iure cumque exercitationem? Quibusdam temporibus neque,
+          suscipit illum itaque asperiores mollitia quo tenetur ad amet quasi
+          deserunt quaerat quos natus optio, fugit incidunt alias unde nostrum
+          labore magnam ut voluptatibus! Ipsam aspernatur, qui, itaque facere
+          assumenda totam veritatis, rerum perferendis nostrum hic eius eligendi
+          laudantium deserunt aperiam perspiciatis. Pariatur est qui corrupti
+          dolorum ut nulla doloribus.
+        </p>
+      </div>
+      <div class="aside col-s-12 col-3">
+        <h1>What I love ?</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Id eaque
+          molestias dolorum, recusandae hic laudantium. Expedita eos eius
+          voluptatem asperiores.
+        </p>
+        <h1>What I do ?</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Id eaque
+          molestias dolorum, recusandae hic laudantium. Expedita eos eius
+          voluptatem asperiores.
+        </p>
+        <h1>What I don't love ?</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Id eaque
+          molestias dolorum, recusandae hic laudantium. Expedita eos eius
+          voluptatem asperiores.
+        </p>
+        <h1>What I don't do ?</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Id eaque
+          molestias dolorum, recusandae hic laudantium. Expedita eos eius
+          voluptatem asperiores.
+        </p>
+      </div>
+    </div>
+    <div class="footer">
+      &copy;<strong>Abdullah Nazmus-Sakib</strong><span> CSE, JU 2024 </span>
+    </div>
+  </body>
+</html>
