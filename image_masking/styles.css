@@ -1,0 +1,25 @@
+/* Universal selector to set a background color */
+* {
+    background-color: bisque;
+}
+
+/* First image: scaled and masked with a circle */
+.img1 {
+    background-image: url("https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg");
+    height: 200px;
+    width: 400px;
+    background-size: cover; /* Scales the background image */
+     background-position: center; 
+    clip-path: circle(50% at 50% 50%); 
+}
+
+/* Second image: scaled and masked with an ellipse */
+.img2 {
+    background-image: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg");
+    height: 200px;
+    width: 400px;
+    background-size: cover; /* Scales the background image */
+    background-position: center; /* Centers the image */
+   clip-path: ellipse(40% 50% at 50% 50%);  /* Masks the image with an elliptical shape */
+    /* mix-blend-mode: screen; */
+}
