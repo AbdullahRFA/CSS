@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Typing Text Effect</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script> <!-- Load Typed.js -->
+    <script src="app.js" defer></script> <!-- Link to your external JS file -->
 </head>
 <body>
     <div class="container">
@@ -18,24 +20,11 @@
                 <li><a href="#">Portfolio</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Contact</a></li>
-                
             </ul>
         </nav>
     </div>
     <div class="type_text">
         <h1>Hi, I'm a <span id="auto_type">Programer</span></h1>
-
     </div>
-
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script>
-        var typed = new Typed('#auto_type', {
-          strings: ['Programer', 'Web Developer', 'UX-UI Designer'],
-          typeSpeed: 50,
-          backSpeed: 50,
-          loop: true, // Set this to true for infinite looping
-          loopCount: Infinity // This is optional, as loop: true is sufficient
-        });
-      </script>
 </body>
 </html>
